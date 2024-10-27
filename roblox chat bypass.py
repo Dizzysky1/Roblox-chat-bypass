@@ -5,6 +5,8 @@ import tkinter as tk
 # - Replace 'u'/'U' with 'ų' (without additional formatting)
 # - Replace 'g'/'G' with 'Ɠ' and apply two dots below
 # - Replace 'y'/'Y' with 'ʏ'
+# - Replace 'x'/'X' with 'ҳ'
+# - Replace 'a'/'A' with 'ą'
 # - Apply dot and comma below for all alphanumeric characters
 def apply_special_formatting(text):
     accented_text = ""
@@ -19,7 +21,11 @@ def apply_special_formatting(text):
         'g': "Ɠ",
         'G': "Ɠ",
         'y': "ʏ",
-        'Y': "ʏ"
+        'Y': "ʏ",
+        'x': "ҳ",
+        'X': "ҳ",
+        'a': "ą",
+        'A': "ą"
     }
 
     for char in text:
@@ -72,7 +78,7 @@ entry.grid(row=0, column=1, pady=(0, 10))
 entry.bind("<KeyRelease>", update_and_copy)  # Update and auto-copy on every key release
 
 # Output field
-output_label = tk.Label(frame, text="bypassed Text:", fg="white", bg="black")
+output_label = tk.Label(frame, text="Bypassed Text:", fg="white", bg="black")
 output_label.grid(row=1, column=0, sticky="e")
 
 output_var = tk.StringVar()
