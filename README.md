@@ -1,4 +1,4 @@
-NEEDS PYTHON TO WORK (was made in python 1.13)
+NEEDS PYTHON TO WORK (was made in python 3.13)
 
 
 Auto copies the bypassed text when you put in text.
