@@ -19,7 +19,7 @@ def apply_special_formatting(text):
         'f': "Ƒ",
         'u': "ų",
         'U': "Ų",
-        'g': "Ɠ",
+        'g': "ģ",
         'G': "Ɠ",
         'y': "ʏ",
         'Y': "ʏ",
