@@ -14,3 +14,6 @@ since in the showcase the ui didnt show here is what it looks like
 
 it would be nice if you joined the discord server: https://discord.gg/54uaP4EBJ6
 i will hopefully make more external stuff for roblox in the future
+
+
+You may use this code but please do not claim as your own.
