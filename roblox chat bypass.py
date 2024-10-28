@@ -26,7 +26,8 @@ def apply_special_formatting(text):
         'x': "ҳ",
         'X': "ҳ",
         'a': "ą",
-        'A': "ą"
+        'A': "ą",
+        '/': "/"  # Replace '/' with '／'
     }
 
     for char in text:
